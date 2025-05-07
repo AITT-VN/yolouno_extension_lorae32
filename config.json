@@ -1,0 +1,13 @@
+{
+    "name": "LORA E32",
+    "description": "Mục mở rộng Yolo UNO để làm việc với module Lora Ebyte E32",
+    "libs": [
+        "lora_e32.py"
+    ],
+    "blocks": [
+        "definition.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {},
+    "poster": "poster.png"
+}

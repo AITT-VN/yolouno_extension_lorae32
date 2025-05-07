@@ -1,0 +1,46 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category id="lora" name="LORA E32" colour="#505170" icon="wifi">
+    <block type="yolo_uno_lora_create">
+    </block>
+    <block type="yolo_uno_lora_show">
+    </block>   
+    <block type="yolo_uno_lora_config">
+      <value name="ADDRESS">
+        <shadow type="math_number">
+          <field name="NUM">0xffff</field>
+        </shadow>
+      </value>
+      <value name="CHANNEL">
+        <shadow type="math_number">
+          <field name="NUM">0x01</field>
+        </shadow>
+      </value>   
+    </block>
+    <block type="yolo_uno_lora_send">
+      <value name="MESSAGE">
+        <shadow type="text">
+          <field name="TEXT">thông tin</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="yolo_uno_lora_send_to">
+      <value name="MESSAGE">
+        <shadow type="text">
+          <field name="TEXT">thông tin</field>
+        </shadow>
+      </value>
+      <value name="ADDRESS">
+        <shadow type="math_number">
+          <field name="NUM">0xffff</field>
+        </shadow>
+      </value>
+      <value name="CHANNEL">
+        <shadow type="math_number">
+          <field name="NUM">0x01</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="yolo_uno_lora_check"/>
+    <block type="yolo_uno_lora_receive"/>
+  </category>
+</xml>
